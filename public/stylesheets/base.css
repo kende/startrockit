@@ -1,0 +1,277 @@
+/* reset */
+
+ul, li {
+  margin: 0;
+  padding: 0;  
+}
+
+body {
+  font-family:  MuseoSans-100, sans-serif;
+  font-size: 16px;
+  background: url("/images/assets/bg/crosstile_bg.png") repeat white;
+}
+
+#container {
+  position: absolute;
+  left: 0;
+  top: 0;
+  min-height: 1440px;
+  height: auto !important;
+  height: 1480px;
+  width: 1120px;
+  /* margin: 20px 0 20px 0; */
+  border: 1px solid #d1d1d1;  
+  -moz-box-shadow: 1px 2px 15px 2px #b3b3b3;
+  -webkit-box-shadow: 1px 2px 15px 2px #b3b3b3;
+  box-shadow: 1px 2px 15px 2px #b3b3b3;
+}
+
+nav {
+  position: absolute;
+  left: 50px;
+}
+
+#countdown {
+  position: absolute;
+  right: 0;
+  top: 50px;
+  padding: 10px 20px;  
+  background: black;
+  opacity: 0.80;
+  -moz-opacity: 0.75;
+  -webkit-opacity: 0.75;
+  filter:alpha(opacity=75);
+  border-radius: 3px 0 0 3px;
+}
+
+  #countdown h1, h2 {
+      font-family:  MuseoSans-100, sans-serif;
+      color: white;
+      margin: 0 50px 10px 0;      
+  }
+  
+  #countdown h1 {
+    font-size: 21px;
+  }
+  
+  #countdown h2 {
+    font-size: 17px;
+  }
+
+article {
+  min-height: 340px;
+  height: auto !important;
+  height: 340px;
+  width: 1120px;
+  position: absolute;
+  left: 0;
+  top: 480px; 
+}
+  article.overlay {
+    width: 100%;
+    background: rgba(255, 255, 255, 0.8); /* R, G, B, A */
+    /* In IE there will be no transparency on the article or founder divs. Not worth the effort for MVP. */
+  }
+  #vision.slide {
+    width: 600px;
+    height: 300px;
+    position: relative; /*important for ie bugfix*/
+    top: 20px;
+    left: 30px;
+    padding: 20px;
+    overflow: hidden;
+    z-index: 10;
+  }
+    #mission.one {
+      width: 600px;
+      height: 300px;
+      position: absolute;
+      left: 0;
+      top: 0;
+      text-align: right;
+    }
+    
+      #mission h1, h2 {
+        margin: 0;
+        padding: 0;
+      }
+    
+      #mission.one h1 {
+        font-size: 36px;
+        padding: 20px 0 0 0;
+      }
+      #mission.one p {
+        color: black;
+        font-size: 21px;
+        padding: 20px 0;
+      }
+      #mission.one a {
+        color: #fdae51;
+      }
+      #mission.one h6 {
+        position: absolute;
+        bottom: 10px;
+        right: 0;
+        font-size: 16px;        
+        color: #fdae51;
+      }
+    #shipping.two {
+      width: 600px;
+      height: 300px;
+      position: absolute;
+      left:0;
+      top: 0;
+      text-align: right; 
+    }
+    
+      #shipping h1, h2 {
+        margin: 0;
+        padding: 0;
+      }
+    
+      #shipping.two h1 {
+        font-size: 36px;
+        padding: 20px 0 0 0;
+      }
+      #shipping.two p {
+        color: black;
+        font-size: 21px;
+        padding: 20px 0;
+      }
+      #shipping.two a {
+        color: #fdae51;
+      }
+      #shipping.two h6 {
+        position: absolute;
+        bottom: 10px;
+        right: 0;
+        font-size: 16px;        
+        color: #fdae51;
+      }      
+    #crew.three {
+      width: 600px;
+      height: 300px;
+      position: absolute;
+      top: 0;
+      left: 0;
+      text-align: right; 
+    }
+    
+      #crew h1, h2 {
+        margin: 0;
+        padding: 0;
+      }
+    
+      #crew.three h1 {
+        font-size: 36px;
+        padding: 20px 0 0 0;
+      }
+      #crew.three p {
+        color: black;
+        font-size: 21px;
+        padding: 20px 0;
+      }
+      #crew.three a {
+        color: #fdae51;
+      }
+      #crew.three h6 {
+        position: absolute;
+        bottom: 10px;
+        right: 0;
+        font-size: 16px;        
+        color: #fdae51;
+      }      
+    #talk.four {
+      width: 520px;
+      height: 300px;
+      position: absolute;
+      top: 0;
+      right: 0;      
+      padding: 0 0 0 80px;
+      text-align: right; 
+    }
+    
+      #talk h1, h2 {
+        margin: 0;
+        padding: 0;
+      }
+    
+      #talk.four h1 {
+        font-size: 32px;
+        padding: 20px 0 0 0;
+      }
+      #talk.four p {
+        color: black;
+        font-size: 21px;
+        padding: 20px 0;
+      }
+      #talk.four a {
+        color: #fdae51;
+      }
+  aside {}
+    #founder {
+      height: 300px;
+      width: 300px;
+      position: absolute;
+      right: 30px;
+      top: 20px;
+      border-radius: 13000px;
+      -moz-border-radius: 13000px;
+      -webkit-border-radius: 13000px;
+      background: url("/images/assets/profiles/kende-circleprofile_300.png") no-repeat center center black;      
+      opacity: 0.98;
+    }
+      #founder h1 {
+        position: absolute;
+        top: 25px;
+        left: 50px;
+        color: white;
+        font-size: 32px;
+      }
+      #founder h6:first-child {
+        position: absolute;
+        top: 100px;
+        left: 80px;
+        color: white;
+        font-size: 13px; 
+        text-shadow: #fff 0 0 1px;       
+        text-align: right;
+      }
+      #founder h6 {
+        position: absolute;
+        top: 120px;
+        left: 80px;
+        color: white;
+        font-size: 13px;        
+        text-shadow: #fff 0 0 1px;       
+        text-align: right;
+      }
+      #founder h6:last-child {
+        position: absolute;
+        top: 140px;
+        left: 80px;
+        color: white;
+        font-size: 13px;        
+        text-shadow: #fff 0 0 1px;       
+        text-align: right;
+      }
+footer {
+  min-height: 40px;
+  height: auto !important;
+  height: 40px;
+  width: 1120px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  background: 20px;
+}     
+
+  #identity {
+   position: absolute;
+   bottom: 0;
+   right: 50px;
+  }
+    #identity h2 {
+      font-size: 21px;
+      color: #fdae51;
+    }
