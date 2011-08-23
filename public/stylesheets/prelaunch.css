@@ -1,0 +1,116 @@
+/* reset */
+
+ul, li {
+  margin: 0;
+  padding: 0;  
+}
+
+body {
+  font-family:  MuseoSans-100, sans-serif;
+  font-size: 16px;
+  background: url("/images/assets/bg/crosstile_bg.png") repeat white;
+}
+
+#container {
+  position: absolute;
+  left: 0;
+  top: 0;
+  min-height: 920px;
+  height: auto !important;
+  height: 920px;
+  width: 960px;
+  /* margin: 20px 0 20px 0; */
+  border: 1px solid #d1d1d1;  
+  -moz-box-shadow: 1px 2px 15px 2px #b3b3b3;
+  -webkit-box-shadow: 1px 2px 15px 2px #b3b3b3;
+  box-shadow: 1px 2px 15px 2px #b3b3b3;
+}
+
+nav {
+  position: absolute;
+  left: 50px;
+}
+
+article {
+  min-height: 340px;
+  height: auto !important;
+  height: 340px;
+  width: 960px;
+  position: absolute;
+  left: 0;
+  top: 280px; 
+}
+  article.overlay {
+    width: 100%;
+    background: rgba(255, 255, 255, 0.8);
+  }
+  #prelaunch {
+    width: 600px;
+    height: 300px;
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    padding: 20px;
+    overflow: hidden;
+    z-index: 10;
+  }
+    #intro {
+      width: 600px;
+      height: 300px;
+      position: absolute;
+      right: 0;
+      top: 0;
+      text-align: right;
+    }
+    
+      #intro h1, h2 {
+        margin: 0;
+        padding: 0;
+      }
+    
+      #intro h1 {
+        font-size: 36px;
+        padding: 20px 0 0 0;
+      }
+      #intro p {
+        color: black;
+        font-size: 21px;
+        padding: 20px 0;
+      }
+      #intro a {
+        color: #fdae51;
+      }
+      #intro h6 {
+        position: absolute;
+        bottom: 10px;
+        right: 0;
+        font-size: 16px;        
+        color: #fdae51;
+      }
+    #betalist {
+      width: 600px;
+      height: 300px;
+      position: absolute;
+      right: 0;
+      top: 100px;
+      text-align: right;
+    }
+footer {
+  min-height: 40px;
+  height: auto !important;
+  height: 40px;
+  width: 960px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  background: 20px;
+}     
+  #identity {
+   position: absolute;
+   bottom: 0;
+   right: 50px;
+  }
+    #identity h2 {
+      font-size: 21px;
+      color: #fdae51;
+    }

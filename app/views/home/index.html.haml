@@ -1,1 +1,20 @@
-
+- if flash[:notice]
+  = flash[:notice].html_safe
+- else
+  %article.overlay
+    #prelaunch
+      #intro
+        %h1 Startrockit
+      #betalist  
+        %p Join us for launch:
+        %form#subForm{:action => "http://inverse.createsend.com/t/r/s/akidru/", :method => "post"}
+          %div
+            %label{:for => "name"} Name
+            %br/
+            %input#name{:name => "cm-name", :type => "text"}/
+            %br/
+            %label{:for => "akidru-akidru"} Email
+            %br/
+            %input#akidru-akidru{:name => "cm-akidru-akidru", :type => "text"}/
+            %br/
+            %input{:type => "submit", :value => "Go!"}/

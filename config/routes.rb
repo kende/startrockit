@@ -1,4 +1,8 @@
 Startrockit::Application.routes.draw do
+  get "founders/new"
+
+  get "founders/create"
+
   get "founders/index"
 
   get "home/index"
